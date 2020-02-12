@@ -182,7 +182,7 @@ namespace WarCardGame
         /// <param name="comp">The computer's player object.</param>
         public static void DealDeck(List<PlayingCard> deck, UserPlayer user, ComputerPlayer comp)
         {
-            // shuffle the cards by OrderBy Random - may need to come back to this to provide a better shuffling technique
+            // shuffle the cards by OrderBy Random
             var rand = new Random();
 
             // have 52 cards - shuffle deck and deal the cards out to user and computer players
